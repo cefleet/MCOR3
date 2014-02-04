@@ -6,16 +6,14 @@ MCOR = {
 
 //When it is minified from here Down will be the mini version of this
 var libFiles = [
-	"Util.js",
-	"Class.js",
+	"Tools/Util.js",
+	"Tools/Class.js",
+	"Tools/EventEmmiter.js",
 	"Model.js",
 	"ModelItem.js",
 	"Store.js"
 ];
 
 for (var i=0, len=libFiles.length; i<len; i++) {
-	document.write("<script src='MCOR/lib/" + libFiles[i] + "'></script>");
+	document.write("<script src='libs/MCOR/lib/" + libFiles[i] + "'></script>");
 }
-
-//load modules
-document.write("<script src='MCOR/modules/Ajax.js'></script>");
