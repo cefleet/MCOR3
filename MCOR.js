@@ -1,3 +1,4 @@
+//TODO use require.js
 MCOR = {
 	version : '.01a',
 	Stores: {},
@@ -10,8 +11,8 @@ var libFiles = [
 	"Tools/Class.js",
 	"Tools/EventEmmiter.js",
 	"Model.js",
-	"ModelItem.js",
-	"Store.js"
+	"View.js",
+	"Modules/FormHelper.js"
 ];
 
 for (var i=0, len=libFiles.length; i<len; i++) {
